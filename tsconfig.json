@@ -1,6 +1,6 @@
 {
   "extends": "@tsconfig/node14",
-  "include": ["src"],
+  "include": ["model", "server", "client"],
   "compilerOptions": {
     "jsx": "react-jsx"
   }
