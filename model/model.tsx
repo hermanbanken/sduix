@@ -17,9 +17,6 @@ export const Screen = (props: ScreenProps) => (
     <View flex margin-3>
       <InputField value="username" />
     </View>
-    {/* {...Array(10)
-      .fill(0, 0, 10)
-      .map(_ => <InputField value="foo" />)} */}
     <View flex margin-3>
       <InputField
         value="password"
