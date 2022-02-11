@@ -5,7 +5,7 @@ module.exports = {
   mode: process.env.NODE_ENV || 'development',
   target: 'node',
   entry: {
-    sdui: './src/index.ts',
+    server: './server/index.ts',
   },
   output: {
     path: path.join(__dirname, 'dist'),

@@ -1,5 +1,12 @@
 import {Fragment} from 'react';
 
+export type Element<T = any> = {
+  type: string;
+  props: T;
+  items: Element[];
+};
+
+// Constants: these fields are used in JSON transport protocol; personal preference!
 const PROPS = 'props'; // react uses: "props"
 const CHILDREN = 'items'; // react uses: "children"
 const TYPE = 'type'; // react uses: "type" and "Component.name"
